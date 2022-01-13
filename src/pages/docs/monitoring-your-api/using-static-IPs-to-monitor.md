@@ -1,5 +1,5 @@
 ---
-title: Running Postman monitors using static IPs
+title: Running monitors using static IPs
 order: 93
 page_id: "using_static_IPs_to_monitor"
 updated: 2022-1-12
