@@ -121,8 +121,22 @@ The **Enable SSL validation** option is selected by default. You can disable SSL
 
 ## Working with collection-based monitors
 
-Editing and deleting a monitor
+To work with a monitor, select **Monitors** in the left sidebar and then select a monitor to view its dashboard. From here you can take the following actions:
+
+* **Run a monitor.** A monitor runs automatically at set intervals, determined by the run frequency you select when configuring the monitor. To run a monitor manually at any time, select **Run** at the upper right.
+
+* **Refresh the dashboard.** To make sure you're viewing the latest monitor results, select **Refresh** at the upper right.
+
+* **Pause a monitor.** While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Pause**. To resume the monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> again and select **Resume**.
+
+* **Edit a monitor.** Edit an existing monitor to update the name, collection, or any other configuration options. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
+
+    > You can quickly rename a monitor without editing it. Select **Monitors** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a monitor, and then select **Rename**.
+
+* **Delete a monitor.** Delete a monitor if it's no longer needed. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Delete**.
 
 ## Next steps
 
-View the results of your monitors to see detailed information about monitor runs. Learn how to set up [integrations](/docs/integrations/intro-integrations/) to send monitor data and notifications to other platforms, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
+[View the results of your monitors](/docs/monitoring-your-api/viewing-monitor-results/) to see detailed information about monitor runs.
+
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) to send monitor data and notifications to other platforms, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
